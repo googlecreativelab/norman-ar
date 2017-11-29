@@ -60,3 +60,6 @@ This is not an official Google product, but part of a larger collaborative exper
 ## Troubleshooting
 * For general openFrameworks and Android Studio problems checkout this [getting started](https://medium.com/energeia/getting-started-with-openframeworks-on-android-5202b92f6582) guide. 
 * After installing the APK on your phone, make sure the camera permissions for the app are set appropriately. Go to `Settings > App info > normanAR > Permissions` and make sure the camera permissions is turned on. 
+
+## Final Thoughts
+We encourage open sourcing projects as a way of learning from each other. Please respect our and other creators’ rights, including copyright and trademark rights when present, when sharing these works and creating derivative work. If you want more info on Google's policy, you can find that [here](https://www.google.com/permissions/).
