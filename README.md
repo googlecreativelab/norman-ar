@@ -21,9 +21,9 @@ For now, there are three "invisible" buttons you can tap. The bottom third of th
 ## Setup
 1. **Prepare your device for use with ARCore**: first you need to install the ARCore service on your device. The best way to do so is to follow [these](https://developers.google.com/ar/develop/downloads) instructions.  
 
-2. **Download an experimental version of openFrameworks**: To use ARCore we currently have to use a special version of openFrameworks (OF). This will change in the near future, but for now snatch [this](https://github.com/halfdanj/openframeworks/tree/android-camera-permissions) version of OF. 
+2. **Download an experimental version of openFrameworks**: To use ARCore we currently have to use the master branch of [openFrameworks](https://github.com/openframeworks/openframeworks/) from the teams GitHub repo. 
 
-3. **Download openFrameworks libraries**: You'll also need to download a few additional libraries for OF. Simply run the `download_libs.sh` script found in `openFrameworks/scripts/android/`. 
+3. **Download openFrameworks libraries**: You'll also need to download a few additional libraries for OF. Simply run the following ```./download_libs.sh -p android -n``` from `openFrameworks/scripts/dev/` directory.
 
 4. **Get ofxARCore**: Download the openFrameworks ARCore [addon](https://github.com/HalfdanJ/ofxARCore). Unzip the folder and move it to the addons folder so your path looks like so: `openFrameworks/addons/ofxARCore/`.
 
